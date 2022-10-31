@@ -3,11 +3,11 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Number {
-    function getNumber() private returns (int number) { 
+    function getNumber() private pure returns (int number) { // Pure functions ensure that they not read or modify the state.
         number = 1948;
     }
 
-    function changeNumber() public returns (int number) {
+    function changeNumber() public pure returns (int number) {
         number = getNumber() * -1;
     }
 }
