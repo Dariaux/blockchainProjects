@@ -3,7 +3,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Number {
-    function getNumber() public returns (int number) { 
+    function getNumber() private returns (int number) { 
         number = 1948;
     }
 
