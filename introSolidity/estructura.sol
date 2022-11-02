@@ -5,7 +5,7 @@ pragma solidity >=0.7.0 <0.9.0;
 contract estructura { 
 
     int cantidad;
-    uint cantidadSinSigno;
+    uint cantidadSinSigno;  // este es un tipo de entero sin signo, es decir no hay negativos
     address direccion;
     bool firmado;
     
